@@ -6,7 +6,7 @@ namespace WebApplication.Controllers
     {
         public IActionResult Index()
         {
-            return Json("sample c# snake for battle snake");
+            return Json("sample c# snake for battle snake.");
         }
 
         [HttpPost]
